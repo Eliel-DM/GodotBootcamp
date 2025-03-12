@@ -1,0 +1,21 @@
+{
+  "name": "Classificador de nível de Herói",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "transpile": "tsup src",
+    "start-dev": "tsx src/index.ts",
+    "start-watch": "tsx watch src/index.ts",
+    "start-transpile": "npm run transpile && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
